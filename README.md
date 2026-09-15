@@ -13,171 +13,132 @@ Ich kann die wichtigsten Begriffe rund um **Git**, **GitHub**, den **GitHub-Flow
 
 ## 1 · Git und GitHub verstehen
 
-### 1. Was ist Git?
-
-**Meine Antwort:** DEINE ANTWORT
+## 1 · Grundlagen
 
 ### 2. Was ist GitHub?
+Eine Online‑Plattform zum Speichern, Teilen und gemeinsamen Bearbeiten von Git-Repositories.
 
-**Meine Antwort:** DEINE ANTWORT
-
-### 3. Was ist der wichtigste Unterschied zwischen Git und GitHub?
-
-**Meine Antwort:** DEINE ANTWORT
+### 3. Wichtigster Unterschied zwischen Git und GitHub
+Git ist ein Versionskontrollsystem, GitHub ein Online‑Dienst zum Hosten von Git-Repos.
 
 ### 4. Funktioniert Git auch ohne GitHub?
-
-**Meine Antwort:** DEINE ANTWORT
+Ja, Git funktioniert vollständig lokal.
 
 ### 5. Was ist ein Repository (Repo)?
-
-**Meine Antwort:** DEINE ANTWORT
+Ein Projektordner mit Dateien und deren Versionsgeschichte.
 
 ### 6. Was ist der `main`-Branch?
-
-**Meine Antwort:** DEINE ANTWORT
+Der Hauptzweig eines Projekts mit stabilem Code.
 
 ### 7. Was ist Markdown?
-
-**Meine Antwort:** DEINE ANTWORT
+Eine einfache Auszeichnungssprache für formatierte Texte.
 
 ### 8. Was bedeutet GitHub-Flavoured Markdown (GFM)?
-
-**Meine Antwort:** DEINE ANTWORT
+Eine erweiterte Markdown-Version mit Tabellen, Task‑Listen und Syntax‑Highlighting.
 
 ---
 
 ## 2 · GitHub-Flow
 
-### 9. Bringe die Schritte in die richtige Reihenfolge
-
-`Commit · Issue · Pull Request · Branch`
-
-**Meine Antwort:** DEINE ANTWORT
+### 9. Richtige Reihenfolge
+Issue → Branch → Commit → Pull Request
 
 ### 10. Was ist ein Issue?
-
-**Meine Antwort:** DEINE ANTWORT
+Eine Aufgabe, Idee oder ein Problem im Projekt.
 
 ### 11. Was ist ein Branch?
+Ein separater Arbeitszweig für Änderungen.
 
-**Meine Antwort:** DEINE ANTWORT
-
-### 12. Warum arbeitet man für eine Änderung häufig auf einem eigenen Branch?
-
-**Meine Antwort:** DEINE ANTWORT
+### 12. Warum arbeitet man auf einem eigenen Branch?
+Um sicher zu arbeiten, ohne den Hauptzweig zu gefährden.
 
 ### 13. Was ist ein Commit?
-
-**Meine Antwort:** DEINE ANTWORT
+Ein gespeicherter Versionspunkt.
 
 ### 14. Wozu dient eine Commit-Nachricht?
-
-**Meine Antwort:** DEINE ANTWORT
+Sie beschreibt kurz die Änderung.
 
 ### 15. Was ist ein Pull Request?
-
-**Meine Antwort:** DEINE ANTWORT
+Ein Antrag, Änderungen in den Hauptzweig zu übernehmen.
 
 ### 16. Was bedeutet Review?
-
-**Meine Antwort:** DEINE ANTWORT
+Code wird geprüft und kommentiert.
 
 ### 17. Was bedeutet Merge?
-
-**Meine Antwort:** DEINE ANTWORT
+Das Zusammenführen zweier Branches.
 
 ### 18. Wann sollte ein Pull Request gemergt werden?
-
-**Meine Antwort:** DEINE ANTWORT
+Nach erfolgreichem Review und Tests.
 
 ---
 
 ## 3 · Wichtige Git-Begriffe und Befehle
 
-### 19. Was bedeutet Push?
+### 19. Push
+Änderungen ins Remote‑Repo hochladen.
 
-**Meine Antwort:** DEINE ANTWORT
+### 20. Pull
+Änderungen aus dem Remote‑Repo herunterladen.
 
-### 20. Was bedeutet Pull?
+### 21. Unterschied Commit vs. Push
+Commit = lokal speichern, Push = online übertragen.
 
-**Meine Antwort:** DEINE ANTWORT
+### 22. Unterschied Pull vs. Pull Request
+Pull = herunterladen, Pull Request = Änderungen vorschlagen.
 
-### 21. Was ist der Unterschied zwischen Commit und Push?
+### 23. Clone
+Ein Remote‑Repo lokal kopieren.
 
-**Meine Antwort:** DEINE ANTWORT
+### 24. `git status`
+Zeigt den aktuellen Zustand des Repos.
 
-### 22. Was ist der Unterschied zwischen Pull und Pull Request?
+### 25. `git add`
+Fügt Änderungen der Staging Area hinzu.
 
-**Meine Antwort:** DEINE ANTWORT
+### 26. Staging Area
+Bereich, in dem Änderungen vor dem Commit gesammelt werden.
 
-### 23. Was bedeutet Clone?
+### 27. `git log`
+Zeigt die Commit-Historie.
 
-**Meine Antwort:** DEINE ANTWORT
+### 28. Branch wechseln
+Zu einem anderen Arbeitszweig wechseln.
 
-### 24. Was macht `git status`?
+### 29. Speichert `git add` eine neue Version?
+Nein.
 
-**Meine Antwort:** DEINE ANTWORT
-
-### 25. Was macht `git add`?
-
-**Meine Antwort:** DEINE ANTWORT
-
-### 26. Was ist die Staging Area?
-
-**Meine Antwort:** DEINE ANTWORT
-
-### 27. Was macht `git log`?
-
-**Meine Antwort:** DEINE ANTWORT
-
-### 28. Was bedeutet Branch wechseln?
-
-**Meine Antwort:** DEINE ANTWORT
-
-### 29. Speichert `git add` bereits eine neue Version?
-
-**Meine Antwort:** DEINE ANTWORT
-
-### 30. Speichert `git push` deine noch nicht committeten Dateiänderungen?
-
-**Meine Antwort:** DEINE ANTWORT
+### 30. Speichert `git push` uncommittete Änderungen?
+Nein.
 
 ---
 
 ## 4 · GitHub-Flow praktisch erklären
 
-### 31. Erkläre den GitHub-Flow in einem kurzen Satz.
+### 31. GitHub-Flow in einem Satz
+Branch erstellen, committen, Pull Request öffnen, reviewen, mergen.
 
-**Meine Antwort:** DEINE ANTWORT
-
-### 32. Ordne die Begriffe zu
+### 32. Begriffe zuordnen
 
 | Bedeutung | Git-/GitHub-Begriff |
 |---|---|
-| Aufgabe | DEINE ANTWORT |
-| Arbeitszweig | DEINE ANTWORT |
-| Speicherpunkt | DEINE ANTWORT |
-| Änderungsantrag | DEINE ANTWORT |
-| Zusammenführen | DEINE ANTWORT |
+| Aufgabe | Issue |
+| Arbeitszweig | Branch |
+| Speicherpunkt | Commit |
+| Änderungsantrag | Pull Request |
+| Zusammenführen | Merge |
 
-### 33. Welche Richtung beschreibt Push?
+### 33. Richtung Push
+Vom PC zu GitHub.
 
-**Meine Antwort:** DEINE ANTWORT
+### 34. Richtung Pull
+Von GitHub zum PC.
 
-### 34. Welche Richtung beschreibt Pull?
+### 35. Warum mehrere sinnvolle Commits besser sind?
+Sie sind nachvollziehbarer und leichter rückgängig zu machen.
 
-**Meine Antwort:** DEINE ANTWORT
-
-### 35. Warum sind mehrere sinnvolle Commits oft besser als ein einziger riesiger Commit?
-
-**Meine Antwort:** DEINE ANTWORT
-
-### 36. Nenne ein Beispiel für eine gute Commit-Nachricht.
-
+### 36. Beispiel Commit-Nachricht
 ```text
-DEINE COMMIT-NACHRICHT
-```
+
 
 ### 37. Warum ist die Commit-Nachricht `update` wenig hilfreich?
 
@@ -191,26 +152,28 @@ DEINE COMMIT-NACHRICHT
 
 Ergänze darunter eine Markdown-Überschrift der Ebene 1:
 
-DEINE ANTWORT
+# Mein GitHub-Lernportfolio
 
 ### 39. Ungeordnete Liste
 
 Erstelle eine Liste mit mindestens drei Begriffen aus dieser Lernsession:
 
-DEINE ANTWORT
+- Commit
+- Branch
+- Pull Request
 
 ### 40. Link
 
 Erstelle einen funktionierenden Markdown-Link zu GitHub oder Microsoft Learn:
 
-DEINE ANTWORT
+[GitHub](https://github.com)
 
 ### 41. Bild
 
 Schreibe die Markdown-Syntax für ein Bild mit Alternativtext:
 
 ```text
-DEINE ANTWORT
+![Alternativtext](bildadresse.png)
 ```
 
 ### 42. Inline-Code
@@ -224,13 +187,14 @@ DEINE ANTWORT
 Ergänze mindestens drei Git-Befehle in diesem Codeblock:
 
 ```bash
-# DEINE BEFEHLE
+git status
+git add .
+git commit -m "Initial commit"
+
 ```
 
 ### 44. Was sollte ein gutes Portfolio-README mindestens leisten?
-
-**Meine Antwort:** DEINE ANTWORT
-
+Ein gutes README erklärt das Projekt, zeigt die wichtigsten Funktionen, beschreibt Installation und Nutzung und vermittelt einen professionellen Eindruck.
 ---
 
 ## 6 · Mein fachlicher Lernnachweis
@@ -264,17 +228,17 @@ DEINE ANTWORT
 Fülle die zweite Spalte mit einer kurzen deutschen Merkhilfe aus.
 
 | Begriff | Deutsche Merkhilfe |
-|---|---|
-| Issue | DEINE ANTWORT |
-| Branch | DEINE ANTWORT |
-| Commit | DEINE ANTWORT |
-| Push | DEINE ANTWORT |
-| Pull | DEINE ANTWORT |
-| Pull Request | DEINE ANTWORT |
-| Review | DEINE ANTWORT |
-| Merge | DEINE ANTWORT |
-| Clone | DEINE ANTWORT |
-| Repository | DEINE ANTWORT |
+| --- | --- |
+| Issue | Aufgabe |
+| Branch | Arbeitszweig |
+| Commit | Speicherpunkt |
+| Push | Hochladen |
+| Pull | Herunterladen |
+| Pull Request | Änderungsantrag |
+| Review | Codeprüfung |
+| Merge | Zusammenführen |
+| Clone | Repo-Kopie |
+| Repository | Projektordner |
 
 ---
 
